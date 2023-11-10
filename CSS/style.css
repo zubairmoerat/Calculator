@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
 *,
 *::after,
 *::before{
@@ -6,17 +7,18 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    font-family: A, sans-serif;
+    background-color: #fff;
 }
 .calculator {
     width: 300px;
     margin: 0 auto;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: rgb(54, 126, 142);
+    border: 2px solid #000;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
     padding: 10px;
+    margin-top: 15%;
 }
 
 input[type="text"] {
@@ -32,13 +34,18 @@ input[type="text"] {
 
 .button {
     text-align: center;
+    font-weight: 700;
     padding: 10px;
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 2px solid #000;
     border-radius: 5px;
     cursor: pointer;
+    background-color: rgb(200, 196, 255);
 }
 
 .button:hover {
-    background-color: #f2f2f2;
+    background-color: #919891;
+}
+.screen {
+    border: solid 2px #000;
 }
